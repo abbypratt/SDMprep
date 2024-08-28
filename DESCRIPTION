@@ -1,0 +1,13 @@
+Package: SDMprep
+Title: Data preparation for species distribution models
+Version: 0.0.0.9000
+Authors@R: 
+    person("Abigail", "Pratt", , "abigailmpratt1@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-8560-2649"))
+Description: An R package for simplifying data preparation for species distribution modeling. It compiles occurrence data filtering, background selection, and visualization of results into a few simple functions.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: spocc, spThin, dismo, rgeos, ENMeval, dplyr, raster
